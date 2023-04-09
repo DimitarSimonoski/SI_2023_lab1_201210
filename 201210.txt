@@ -1,0 +1,53 @@
+1. Го инстелирав GitBash.
+2. Отидов на дадениот линк https://github.com/settings/repositories, 
+го сменив default branch-от во master, и го кликнав копчето Update.
+3. Создадов свој репозеториум на Github, кој го именував SI_2023_lab1_201210.
+4. Сменив GitBash да работи на ~/Desktop/SI_2023_lab1_201210, и со командата
+$ git init, иницијализирав празен репозиториум.
+5. Го поврзав мојот локален репозиториум со оддалечниот репозиториум на Github,
+со командата git remote add origin https://github.com/DimitarSimonoski/SI_2023_lab1_201210.git
+6. Прво го $ git add README.md-нав фајлот README.md за да го ставам на сцена, и после го
+$ git commit -m "Initial commit"-нав фајлот за да го ставам во репозиториумот.
+7. Со командата $ touch SILab1.java направив фајл со името SILab1.java,
+со $ nano SILab1.java влегов во фајлот SILab1.java и го paste-нав java кодот,
+го адднав на сцена со кодот $ git add SILab1.java и на крај го commit-нав со
+кодот $ git commit -a -m "Add java class".
+8. Со комнадата “$ git push„ ми кажа дека треба да сетнам origin master на репото
+со командата “$ git push --set-upstream origin master„.
+9. Со командите “$ git branch bug1„,“$ git branch bug2„,“$ git branch bug3„,
+создадов 3 гранки.
+10. Со командата “$ git checkout bug1„ се префрлив на гранката bug1.
+11. Со командата “$ nano SILab1.java„ влегов во кодот, го решив проблемот и после со
+командата “$ git commit -a -m "Fix wrong loop for reading"„ го ставив на сцена и
+го commit-нав кодот на branch-от.
+12. Со кодот “$ git checkout bug2„ се префрлив на bug2.
+13. Со командата “$ nano SILab1.java„ влегов во кодот, го решив проблемот и после со
+командата “$ git commit -a -m "Fix wrong condition in filterOddNumbers"„ го ставив на сцена и
+го commit-нав кодот на branch-от.
+14. Со кодот “$ git checkout bug3„ се префрлив на bug3.
+15. Со командата “$ nano SILab1.java„ влегов во кодот, го решив проблемот и после со
+командата “$ git commit -a -m ""Fix method SumEvenNumbers"„ го ставив на сцена и
+го commit-нав кодот на branch-от.
+17. Со командата “$ git checkout master„ се префрлив на гранката master
+18. Со командата “$ git merge bug1„ ја merge-нувам гранката bug1 на master, со
+Fast-forward метод.
+19. Со командата “$ git push origin„ го синхронизирам со origin репозиториумот
+20. Со командата “$ git merge bug2„ ја merge-нувам гранката bug2 на master, со
+ort метод.
+21. Со командата “$ git push origin„ го синхронизирам со origin репозиториумот
+22. Со командата “$ git checkout bug3„ се префрламе на гранката bug3
+23. Со командата “$ git rebase master„ го копиравме master на bug3
+24. Со командата “$ git checkout master„ се префрламе на гранката bug3
+25. Со командата “$ git merge bug3„ ја merge-нувам гранката bug3 на master, со
+Fast-forward метод поради rebase-от.
+26. Со командата “$ git push origin„ ги пратив смените од мојот репозиториум на
+одалечениот репозиториум.
+27. Со командата “$ git log > logs.txt„ ги експортнав сите логови во logs.txt
+фајлот,со командите „touch 201210.txt“ направив нов фајл и со командата „nano 201210.txt“ ја
+внесов документацијата, и го commit-нав со командите “$ git add logs.txt„,
+“$ git commit -m "Final commit"„
+28. Со командата “$ git push origin„ ги пратив смените од мојот репозиториум на
+одалечениот репозиториум.
+
+
+
